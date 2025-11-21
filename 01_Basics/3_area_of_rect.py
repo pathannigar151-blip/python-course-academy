@@ -1,5 +1,5 @@
-# Take length and width as input
+length=float(input("Enter length"))
+width=float(input("Enter width"))
 
-# Calculate area
-
-# Print the result
+area=length*width
+print("area of rectangle=",area)

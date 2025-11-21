@@ -1,3 +1,2 @@
-# Ask user for name, age, and city
-
-# Print the details in one sentence
+name=input("Enter Your Name")
+city=input("Enter Your city")
