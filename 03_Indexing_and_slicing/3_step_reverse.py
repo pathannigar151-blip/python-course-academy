@@ -1,4 +1,11 @@
 # Input a string
-# Print the reversed string using slicing
-# Print every second character using slicing (step = 2)
-# Print characters at even indexes using slicing
+s = input("Enter any string: ")
+
+# Reversed string
+print("Reversed:", s[::-1])
+
+# Every second character (step = 2)
+print("Second char:", s[::2])
+
+# Characters at even indexes (0,2,4,6...)
+print("Even index chars:", s[0::2])

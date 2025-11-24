@@ -1,3 +1,8 @@
 # Input a year
+year = int(input("Enter a year: "))
+
 # Check if divisible by 4
-# Print if leap year or not
+if year % 4 == 0:
+    print(year, "is a Leap Year")
+else:
+    print(year, "is NOT a Leap Year")

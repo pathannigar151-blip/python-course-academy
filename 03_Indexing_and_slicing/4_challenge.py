@@ -1,4 +1,12 @@
-# Input an email address (like "student123@gmail.com")
-# Slice out the username (everything before '@')
-# Remove the first and last character from that username
-# Print both: original username and trimmed username
+# Input an email address
+email = input("Enter Your Email: ")
+
+# Username before '@'
+username = email.split('@')[0]
+
+# Remove first and last character of username
+trimmed = username[1:-1]
+
+# Print both
+print("Original username:", username)
+print("Trimmed username:", trimmed)
