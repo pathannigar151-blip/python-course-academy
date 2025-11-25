@@ -15,14 +15,12 @@
   Then open the folder in VS Code or any code editor.
 
 * After writing your solutions, **commit and push your changes**:
-
-  ```
-  git add .
+git add .
   git commit -m "added solutions"
   git push
+yhiyf* Do **not** delete or rename existing folders. Always add solutions inside the correct topic folder.
   ```
 
-* Do **not** delete or rename existing folders. Always add solutions inside the correct topic folder.
 
 * Students must **keep adding new problems and solutions in the same style** as the course continues so that everyone stays in sync.
 
